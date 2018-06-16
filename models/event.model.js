@@ -11,7 +11,7 @@ module.exports = function EventModel() {
             return err;
         }
     }
-    async function saveEvent(evssssssssssssssent) {
+    async function saveEvent(event) {
         try {
             const newEvent = await new eventSchema(event);
             return newEvent.save(); 
